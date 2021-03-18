@@ -23,7 +23,7 @@ class Artist
   end
   
   def genres 
-    Genre.all.select do |genres|
+    Genre.all.map do |genres|
       genre.artist == self 
     end
   end
