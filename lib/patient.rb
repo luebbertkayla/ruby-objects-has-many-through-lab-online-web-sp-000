@@ -1,5 +1,5 @@
 class Patient
-  attr_accessor :name, :song, :artist 
+  attr_accessor :name, :doctor, :appointment 
   
   @@all = []
   
