@@ -13,7 +13,7 @@ class Genre
   end 
   
   def songs
-    Song.all.find do |genre|
+    Song.all.select do |genre|
       Song.genre = self 
     end
   end
